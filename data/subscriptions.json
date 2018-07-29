@@ -1,0 +1,63 @@
+[{
+		"name": "Online Shopping",
+		"icon": "shop",
+		"subscriptions": [{
+				"name": "Amazon Prime",
+				"price": [{
+					"name": "Monthly",
+					"freq": "month",
+					"price": 12.99
+				}, {
+					"name": "Yearly",
+					"freq": "year",
+					"price": 119
+				}]
+			},
+			{
+				"name": "Amazon Prime Student",
+				"price": [{
+					"name": "Monthly",
+					"freq": "month",
+					"price": 6.49
+				}, {
+					"name": "Yearly",
+					"freq": "year",
+					"price": 59
+				}]
+			}
+		]
+	},
+	{
+		"name": "Delivery Boxes",
+		"icon": "shop",
+		"subscriptions": [{
+			"name": "Blue Apron",
+			"price": [{
+					"name": "Two Person Plan, 2 Recipes Per Week",
+					"freq": "week",
+					"price": 47.95
+				},
+				{
+					"name": "Two Person Plan, 3 Recipes Per Week",
+					"freq": "week",
+					"price": 59.94
+				},
+				{
+					"name": "Family Plan, 2 Recipes Per Week",
+					"freq": "week",
+					"price": 71.92
+				},
+				{
+					"name": "Family Plan, 3 Recipes Per Week",
+					"freq": "week",
+					"price": 95.88
+				},
+				{
+					"name": "Family Plan, 4 Recipes Per Week",
+					"freq": "week",
+					"price": 119.84
+				}
+			]
+		}]
+	}
+]
