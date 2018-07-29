@@ -1,25 +1,52 @@
+<!-- This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>. -->
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.js"></script>
+    <script src="main.js" charset="utf-8"></script>
+
     <title>Subscription Costs</title>
   </head>
   <body>
     <div data-role="page">
+
+      <!-- Page header -->
       <div data-role="header">
         <h1>Subscription Costs</h1>
       </div>
+
+      <!-- Page -->
       <div role="main" class="ui-content">
         <p>See how much your subscriptions cost!</p>
+        <form class="subscriptionsCheckBoxes">
+          <!-- To be filled in by Javascript -->
+        </form>
       </div>
-      <div data-role="footer">
+
+      <!-- Page Footer -->
+      <div data-role="footer"><center>
         <p>Copyright © Ethan Nguyen, all rights reserved</p>
-        <p><a href='/license.html'>Licensed under the GNU GPL</a></p>
+        <p><a href='license.html'>Licensed under the GNU GPL</a></p>
         <p>I do not guarantee the accuracy of this information. Prices may be updated through <a href='https://github.com/etnguyen03/sub-costs'>Github</a>.</p>
+        </center>
       </div>
     </div>
   </body>

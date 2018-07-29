@@ -1,3 +1,10 @@
+/*
+ * Instructions for changing:
+ * Follow the documentation to be made available on Github
+ * Once finished, run through JSONLint (https://jsonlint.com/)
+ * Pull request
+ */
+
 [{
 		"name": "Online Shopping",
 		"icon": "shop",
